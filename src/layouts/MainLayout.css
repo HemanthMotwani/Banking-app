@@ -1,0 +1,51 @@
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-secondary);
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  width: 100%;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 1.5rem 0.75rem;
+  }
+}
+
+/* Large Monitors */
+@media (min-width: 1440px) {
+  .main-content {
+    max-width: 1400px;
+    padding: 4rem 3rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .main-content {
+    max-width: 1600px;
+    padding: 5rem 4rem;
+  }
+}
+
